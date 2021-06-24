@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+    <title>Repertório | ETEC - Nicolas Ceschin Langhi</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header><h1>Registre suas Músicas</h1></header>
+    <main>
+    <div id="consult">
+            <a href="index.html">Consultar uma Música &#x1F50D;</a>
+    </div>
+    <div class="formulario">
+    <form action="reg_musica.php" method="POST" />
+        <label>Nome da Música</label>
+        <input type="text" name="nome_musica" id="input"/><br>
+        <label>Gênero</label>
+        <input type="text" name="genero" id="input"/><br>
+        <label>Gravadora</label>
+        <input type="text" name="gravadora" id="input"/><br>
+        <label>Compositor(a)</label>
+        <input type="text" name="compositor" id="input"/><br>
+        <label>Interprete</label>
+        <input type="text" name="interprete" id="input"/><br>
+        <label>Data de Lançamento</label>
+        <input type="date" name="data_lancamento" id="input"/><br>
+        <label>Duração</label>
+        <input type="text" name="duracao" id="input"/><br>
+        <label>Letra</label><br>
+        <textarea rows="10" cols="60" name="letra"></textarea><br><br>
+        <input type="submit" id="input" value="Registrar"/>
+    </form>
+    </div>
+    </main>
+    <footer>
+    	<hr>
+        <p>&copy; Mestre Galvani | Repertório desenvolvido pelo aluno Nicolas - 2021</p>
+    </footer>
+</body>
+</html>

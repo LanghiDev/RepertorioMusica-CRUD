@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 15pt Arial;
+    background-color: #eff;
+}
+
+/* HEADER============================*/
+
+header {
+    background-color: #acc;
+    text-align: center;
+    padding: 1.5rem 1.5rem 9rem 1.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* MAIN=================== */
+
+main {
+    background-color: #fff;
+    width: 800px;
+    margin: 20px auto;
+    margin-top: -5.6rem;
+    padding: 0 20px 20px 20px;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 6px 2px 30px 0px rgba(0, 0, 0, 0.75);
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+label, #input, textarea {
+    margin: 1rem 0 1rem 0;
+    font-weight: bold;
+}label{color: #abb;}
+#input{
+    color: gray;
+    margin-left: 2rem;
+    width: 10rem;
+}
+input[type="submit"], #submit{
+    margin-top: 1rem;
+    color: #aaa;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.option{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* a, divs ===========*/
+a {
+    text-decoration: none;
+    color: rgb(36, 79, 134);
+    font-weight: bolder;
+}a:hover{color: rgb(44, 99, 170);}
+
+#consult, #cadast {
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+/* FOOTER===================== */
+
+footer {
+    text-align: center;
+    background-color: #abb;
+    padding-bottom: .6rem;
+}

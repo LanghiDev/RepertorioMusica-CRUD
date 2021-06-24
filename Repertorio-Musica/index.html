@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consultar Música no Repertório</title>
+</head>
+<body>
+    <header>
+        <h1>Consulte sua Música</h1>
+        <h2>Preencha as informações abaixo &#x1F447;</h2>
+    </header>
+    <main><br>
+        <div class="formulario">
+            <form action="consultar.php" method="POST">
+                <label for="expressao">Digite a palavra-chave: </label>
+                <input type="text" name="expressao" id="expressao"><br>
+                <label>Escolha a opção: </label>
+
+                <div class="option">
+                    <input type="radio" name="op" value="nome" checked><span>Nome</span>
+                </div>
+                <div class="option">
+                    <input type="radio" name="op" value="genero"><span>Gênero</span>
+                </div>
+                <div class="option">
+                    <input type="radio" name="op" value="interprete"><span>Intérprete</span>
+                </div>
+                <div class="option">
+                    <input type="radio" name="op" value="letra"><span>Letra</span><br>
+                </div>
+
+                <input type="submit" value="Buscar Música">
+            </form>
+        </div>
+        <div id="cadast">
+            <a href="cadastrar.html">Cadastrar uma Música &#x1F3B5;</a>
+        </div>
+    </main>
+    <footer>
+    	<hr>
+        <p>&copy; Mestre Galvani | Repertório desenvolvido pelo aluno Nicolas - 2021</p>
+    </footer>
+</body>
+</html>
